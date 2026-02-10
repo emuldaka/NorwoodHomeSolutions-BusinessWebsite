@@ -2,14 +2,14 @@
 import { Bug, Snowflake, Leaf, Hammer, Droplets, Paintbrush, Wrench, ShieldCheck, Star } from 'lucide-react';
 
 export const BUSINESS_INFO = {
-  name: "Handyman Hero",
-  tagline: "Trusted Local Handyman Services",
-  phone: "(555) 123-4567",
-  email: "hello@handymanhero.com",
-  location: "Metropolis, NY",
-  experience: "10+ Years Experience",
-  licensed: "Licensed & Insured",
-  yearEstablished: 2012
+  name: "Norwood Home Solutions",
+  tagline: "Norwood Home Solutions",
+  phone: "708-359-9797",
+  email: "NorwoodHomeSolutionsLLC@gmail.com",
+  location: "Park Ridge, IL",
+  experience: "3+ Years Experience",
+  licensed: "License and Insurance coming soon",
+  yearEstablished: 2023
 };
 
 export const SERVICES = [

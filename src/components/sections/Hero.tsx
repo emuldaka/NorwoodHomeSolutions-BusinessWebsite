@@ -50,10 +50,7 @@ export default function Hero() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-white/10">
-            <div className="flex items-center gap-3">
-              <ShieldCheck className="w-6 h-6 text-accent" />
-              <span className="text-sm font-medium">{BUSINESS_INFO.licensed}</span>
-            </div>
+            
             <div className="flex items-center gap-3">
               <Clock className="w-6 h-6 text-accent" />
               <span className="text-sm font-medium">Quick Turnaround</span>
