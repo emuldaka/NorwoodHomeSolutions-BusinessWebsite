@@ -26,17 +26,17 @@ export default function About() {
                 data-ai-hint="handyman portrait"
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/90 p-8 text-white">
-                <p className="text-sm font-bold uppercase tracking-widest text-accent mb-1">Founder & Lead Tech</p>
-                <h4 className="text-2xl font-bold">John Harrison</h4>
+                <p className="text-sm font-bold uppercase tracking-widest text-accent mb-1">Founder & Manager</p>
+                <h4 className="text-2xl font-bold">Nick R.</h4>
               </div>
             </div>
           </div>
 
           <div className="lg:w-1/2">
-            <h2 className="text-accent font-semibold uppercase tracking-widest text-sm mb-3">About Handyman Hero</h2>
+            <h2 className="text-accent font-semibold uppercase tracking-widest text-sm mb-3">About {BUSINESS_INFO.name}</h2>
             <h3 className="text-4xl font-bold text-primary mb-6 font-headline">Meet Your Local Handyman</h3>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              With over a decade of experience in residential maintenance and repair, Handyman Hero was built on the foundation of trust, quality, and reliability. We understand that your home is your most valuable asset, and we treat every project with the same care and attention to detail as if it were our own.
+            {BUSINESS_INFO.name}, founded in 2023, is built on a passion for helping our neighbors and a commitment to quality work. We approach every project with fresh energy and a dedication to earning your trust. Understanding that your home is your most valuable asset, we treat every task from minor repairs to seasonal maintenance with the same care and attention to detail as if it were our own.
             </p>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
               Based in {BUSINESS_INFO.location}, we specialize in seasonal maintenance that keeps your property safe and beautiful year-round. From the thick of winter snow to the height of summer lawn care, we're here to help.
@@ -44,11 +44,11 @@ export default function About() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
-                "Fully Licensed & Insured",
-                "10+ Years Experience",
+                "3+ Years Experience",
                 "Punctual & Reliable",
                 "Clean Job Sites",
                 "Free Accurate Estimates",
+                "Competitive Pricing",
                 "Satisfaction Guaranteed"
               ].map((point, idx) => (
                 <div key={idx} className="flex items-center gap-2">

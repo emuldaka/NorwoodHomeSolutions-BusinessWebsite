@@ -1,5 +1,5 @@
 
-import { Bug, Snowflake, Leaf, Hammer, Droplets, Paintbrush, Wrench, ShieldCheck, Star } from 'lucide-react';
+import { Bug, Snowflake, Leaf, Hammer, Droplets, ShieldCheck, Flower} from 'lucide-react';
 
 export const BUSINESS_INFO = {
   name: "Norwood Home Solutions",
@@ -35,11 +35,11 @@ export const SERVICES = [
     imageId: "service-lawn"
   },
   {
-    id: "repair",
-    title: "Home Repairs",
-    description: "Expert fixing of drywall, doors, floors, and general home maintenance.",
-    icon: Hammer,
-    imageId: "service-repair"
+    id: "hives",
+    title: "Bee & Wasp Removal",
+    description: "Expert removal/extermination of wasp nests & relocation of bees.",
+    icon: Bug,
+    imageId: "service-hive"
   },
   {
     id: "gutter",
@@ -59,54 +59,35 @@ export const SERVICES = [
     id: "handyman",
     title: "General Handyman",
     description: "Drywall, painting, furniture assembly, and small carpentry projects.",
-    icon: Paintbrush,
+    icon: Hammer,
     imageId: "service-repair"
   },
   {
-    id: "carpentry",
-    title: "Small Carpentry",
-    description: "Custom shelving, trim work, and minor structural improvements.",
-    icon: Wrench,
-    imageId: "gallery-2"
+    id: "gardening",
+    title: "Gardening",
+    description: "Small plant/tree removal, planting needs, and digging.",
+    icon: Flower,
+    imageId: "service-gardening"
   }
 ];
 
 export const TESTIMONIALS = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    city: "Metropolis",
-    quote: "Handyman Hero saved the day when our gutters were overflowing. Quick, professional, and very reasonably priced.",
+    name: "Elis M",
+    city: "Norridge",
+    quote: "I called Nick when we noticed a wasp nest in one of our trees, he showed up and took care of it the same day. He has also assited with a rat issue in my garage.",
     rating: 5
-  },
-  {
-    id: 2,
-    name: "Michael Chen",
-    city: "River Heights",
-    quote: "I've been using their snow removal service all winter. They are always there before I even wake up. Highly recommend!",
-    rating: 5
-  },
-  {
-    id: 3,
-    name: "Jessica Miller",
-    city: "Metropolis",
-    quote: "The drywall repair in our living room is seamless. You can't even tell there was a hole. Excellent work.",
-    rating: 5
-  },
-  {
-    id: 4,
-    name: "David Wilson",
-    city: "Oak Creek",
-    quote: "Professional pest control that actually works. We haven't seen a single ant since they visited last month.",
-    rating: 4
   }
 ];
 
 export const GALLERY_ITEMS = [
-  { id: 1, imageId: "gallery-1", title: "Kitchen Remodel" },
-  { id: 2, imageId: "gallery-2", title: "Deck Refinishing" },
-  { id: 3, imageId: "gallery-3", title: "Interior Painting" },
-  { id: 4, imageId: "gallery-4", title: "Garden Setup" },
-  { id: 5, imageId: "gallery-5", title: "Floor Tiling" },
-  { id: 6, imageId: "gallery-6", title: "Siding Cleaning" }
+  { id: 1, imageId: "gallery-1", title: "Dirty Siding/Boards/Railing Before" },
+  { id: 2, imageId: "gallery-2", title: "Siding/Boards/Railing After Washing Service" },
+  { id: 3, imageId: "gallery-3", title: "Squirrel Removal and Crawl Space Enclosed" },
+  { id: 4, imageId: "gallery-4", title: "Hole Below Stairs" },
+  { id: 5, imageId: "gallery-5", title: "Hole and Area Dug Out" },
+  { id: 6, imageId: "gallery-6", title: "Hole Enclosed" },
+  { id: 7, imageId: "gallery-7", title: "Wasp Nest" },
+  { id: 8, imageId: "gallery-8", title: "Wasp Nest" }
 ];

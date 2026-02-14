@@ -1,88 +1,113 @@
+
 {
   "placeholderImages": [
     {
       "id": "hero-bg",
-      "description": "Professional handyman working on a modern home exterior",
-      "imageUrl": "https://images.unsplash.com/photo-1756073198242-d11594235b4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYW5keW1hbiUyMGhvdXNlfGVufDB8fHx8MTc3MDY4NjExNXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "handyman house"
+      "description": "Norridge",
+      "imageUrl": "/parkOverView.png",
+      "imageHint": "norridge"
     },
     {
       "id": "about-owner",
       "description": "Friendly professional handyman in work gear",
-      "imageUrl": "https://images.unsplash.com/photo-1620049644455-278ce458370f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoYW5keW1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc3MDYxODI5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/NickWithBeeCostume.jpg",
       "imageHint": "handyman portrait"
     },
     {
       "id": "service-pest",
       "description": "Pest control specialist at work",
-      "imageUrl": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageUrl": "/Stock-pest.png",
       "imageHint": "pest control"
     },
     {
       "id": "service-snow",
       "description": "Snow removal from a driveway",
-      "imageUrl": "https://images.unsplash.com/photo-1629818571588-65407f9dd1a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzbm93JTIwcmVtb3ZhbHxlbnwwfHx8fDE3NzA2ODYxMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Stock-shovel.png",
       "imageHint": "snow removal"
     },
     {
       "id": "service-lawn",
       "description": "Freshly mowed lawn and landscaping",
-      "imageUrl": "https://images.unsplash.com/photo-1734303023491-db8037a21f09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsYXduJTIwY2FyZXxlbnwwfHx8fDE3NzA2ODYxMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Stock-mow.png",
       "imageHint": "lawn care"
     },
     {
       "id": "service-repair",
       "description": "Handyman repairing drywall",
-      "imageUrl": "https://images.unsplash.com/photo-1444419988131-046ed4e5ffd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxob21lJTIwcmVwYWlyfGVufDB8fHx8MTc3MDY4NjExNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Stock-handy.png",
       "imageHint": "home repair"
     },
     {
       "id": "service-gutter",
       "description": "Person cleaning roof gutters",
-      "imageUrl": "https://images.unsplash.com/photo-1593174260957-b4eba7b3820c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxndXR0ZXIlMjBjbGVhbmluZ3xlbnwwfHx8fDE3NzA2ODYxMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Stock-gutter.png",
       "imageHint": "gutter cleaning"
     },
     {
       "id": "service-washing",
       "description": "Power washing a stone patio",
-      "imageUrl": "https://images.unsplash.com/photo-1671293317142-32b8ed419a34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3dlciUyMHdhc2hpbmd8ZW58MHx8fHwxNzcwNjg2MTE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/Stock-powerwashing.png",
       "imageHint": "power washing"
     },
     {
+      "id": "service-gardening",
+      "description": "Girl gardening",
+      "imageUrl": "/Stock-gardening.png",
+      "imageHint": "gardening"
+    },
+    {
+      "id": "service-hive",
+      "description": "Hive Removal",
+      "imageUrl": "/Stock-hive.png",
+      "imageHint": "hive removal"
+    },
+    {
       "id": "gallery-1",
-      "description": "Kitchen renovation project",
-      "imageUrl": "https://images.unsplash.com/photo-1682888813913-e13f18692019?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxraXRjaGVuJTIwcmVtb2RlbHxlbnwwfHx8fDE3NzA2NDY4NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "kitchen remodel"
+      "description": "Siding Before",
+      "imageUrl": "/sidingEditAfter.jpg",
+      "imageHint": "siding before"
     },
     {
       "id": "gallery-2",
-      "description": "New deck construction",
-      "imageUrl": "https://images.unsplash.com/photo-1660610527852-89dfee9eccbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3b29kZW4lMjBkZWNrfGVufDB8fHx8MTc3MDY4NjExNXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "wooden deck"
+      "description": "Siding After",
+      "imageUrl": "/siding-before.jpg",
+      "imageHint": "siding after"
     },
     {
       "id": "gallery-3",
-      "description": "Freshly painted living room",
-      "imageUrl": "https://images.unsplash.com/photo-1746031777317-7143b3c46259?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW50ZXJpb3IlMjBwYWludGluZ3xlbnwwfHx8fDE3NzA2ODYxMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "interior painting"
+      "description": "Squirrel Removal",
+      "imageUrl": "/squirel-removal.jpg",
+      "imageHint": "squirel removal"
     },
     {
       "id": "gallery-4",
-      "description": "Garden landscaping project",
-      "imageUrl": "https://images.unsplash.com/photo-1713371765638-8cf84d350b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnYXJkZW4lMjBsYW5kc2NhcGluZ3xlbnwwfHx8fDE3NzA2ODYxMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "garden landscaping"
+      "description": "Pest Crack Before",
+      "imageUrl": "/holebefore.jpg",
+      "imageHint": "pest crack before"
     },
     {
       "id": "gallery-5",
-      "description": "Tile floor installation",
-      "imageUrl": "https://images.unsplash.com/flagged/photo-1556438758-872c68902f60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0aWxlJTIwZmxvb3J8ZW58MHx8fHwxNzcwNjg2MTE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "tile floor"
+      "description": "Pest Crack During",
+      "imageUrl": "/holeInProgress.jpg",
+      "imageHint": "pest crack during"
     },
     {
       "id": "gallery-6",
-      "description": "Cleaned exterior siding",
-      "imageUrl": "https://images.unsplash.com/photo-1606764442084-441fa3a8e462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxob3VzZSUyMHNpZGluZ3xlbnwwfHx8fDE3NzA2ODYxMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "house siding"
+      "description": "Pest Crack After",
+      "imageUrl": "/holeAfter.jpg",
+      "imageHint": "pest crack after"
+    },
+    {
+      "id": "gallery-7",
+      "description": "wasp 1",
+      "imageUrl": "/waspBelow.jpg",
+      "imageHint": "wasp 1"
+    },
+    {
+      "id": "gallery-8",
+      "description": "wasp 2",
+      "imageUrl": "/wasp2.jpg",
+      "imageHint": "wasp 2"
     }
   ]
 }

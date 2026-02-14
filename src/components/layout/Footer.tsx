@@ -48,6 +48,8 @@ export default function Footer() {
               <li>Home Repairs</li>
               <li>Gutter Cleaning</li>
               <li>Power Washing</li>
+              <li>Bee & Wasp</li>
+              <li>And More!</li>
             </ul>
           </div>
 
@@ -71,11 +73,11 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>© {currentYear} {BUSINESS_INFO.name}. All rights reserved.</p>
+          <p>© {BUSINESS_INFO.yearEstablished} {BUSINESS_INFO.name}. All rights reserved.</p>
           <p>Proudly serving {BUSINESS_INFO.location} since {BUSINESS_INFO.yearEstablished}</p>
           <div className="flex gap-6">
-            <Link href="#" className="hover:text-white">Privacy Policy</Link>
-            <Link href="#" className="hover:text-white">Terms of Service</Link>
+            <Link href="#" className="hover:text-white"></Link>
+            <Link href="#" className="hover:text-white"></Link>
           </div>
         </div>
       </div>

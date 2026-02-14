@@ -44,7 +44,7 @@ export default function Hero() {
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-white px-8 h-14 text-lg rounded-full" asChild>
               <a href="#contact">Get a Free Quote</a>
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white/30 hover:bg-white/10 h-14 px-8 text-lg rounded-full" asChild>
+            <Button size="lg" variant="outline" className="text-black border-white/30 hover:bg-white/10 h-14 px-8 text-lg rounded-full" asChild>
               <a href="#services">View Services</a>
             </Button>
           </div>

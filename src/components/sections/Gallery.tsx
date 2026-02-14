@@ -13,7 +13,7 @@ export default function Gallery() {
           <h2 className="text-accent font-semibold uppercase tracking-widest text-sm mb-3">Our Work</h2>
           <h3 className="text-4xl font-bold text-primary mb-6 font-headline">Project Gallery</h3>
           <p className="text-muted-foreground text-lg">
-            A showcase of our recent projects and the quality you can expect from Handyman Hero.
+            A showcase of our recent projects and the quality you can expect from Norwood Home Solutions.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ export default function Gallery() {
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                   data-ai-hint={galleryImg?.imageHint || "house renovation"}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-8">
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent transition-opacity duration-300 flex items-end p-8">
                   <h4 className="text-white text-xl font-bold translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                     {item.title}
                   </h4>

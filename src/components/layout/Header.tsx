@@ -20,12 +20,12 @@ export default function Header() {
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-background/95 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'}`}>
-      <div className="container mx-auto px-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 flex items-center justify-between gap-4">
         <Link href="/" className="flex items-center gap-2">
           <div className="bg-accent p-1.5 rounded-lg">
             <Hammer className="w-6 h-6 text-white" />
           </div>
-          <span className={`text-xl font-bold tracking-tight ${isScrolled ? 'text-primary' : 'text-white md:text-primary'}`}>
+          <span className={`text-xl font-bold tracking-tight ${isScrolled ? 'text-primary' : 'text-white'}`}>
             {BUSINESS_INFO.name}
           </span>
         </Link>
@@ -43,7 +43,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild variant="default" className="bg-accent hover:bg-accent/90 hidden sm:inline-flex">
+          <Button asChild variant="default" className="bg-accent hover:bg-accent/90 hidden md:inline-flex">
             <Link href="#contact">Free Quote</Link>
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden" aria-label="Toggle Menu">

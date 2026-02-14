@@ -4,7 +4,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Handyman Hero | Trusted Local Home Services',
+  title: 'Norwood Home Solutions | Trusted Local Home Services',
   description: 'Professional handyman offering pest control, snow removal, lawn care, home repairs, and more. Quality you can trust.',
 };
 
