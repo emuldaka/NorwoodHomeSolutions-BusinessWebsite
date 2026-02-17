@@ -5,10 +5,12 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
-import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram, CheckCircle } from 'lucide-react';
 import { BUSINESS_INFO } from '@/data/handyman-data';
+import { useForm, ValidationError } from '@formspree/react';
 
 export default function Contact() {
+  const [state, handleSubmit] = useForm("xojnwneq");
   const socialLinks = [
     { Icon: Instagram, link: 'https://www.instagram.com/norwoodhomesolutions?igsh=MTMzM3BvemI3bmwzaw%3D%3D' }
   ];
@@ -69,26 +71,46 @@ export default function Contact() {
           </div>
 
           <div className="lg:w-2/3">
-            <div className="bg-slate-50 p-10 rounded-3xl shadow-sm border border-slate-100">
+            <div className="bg-slate-50 p-10 rounded-3xl shadow-sm border border-slate-100 flex items-center justify-center min-h-[500px]">
+             {state.succeeded ? (
+                <div className="text-center">
+                  <CheckCircle className="w-16 h-16 text-accent mx-auto mb-4" />
+                  <h3 className="text-3xl font-bold text-primary mb-2">Message Sent!</h3>
+                  <p className="text-lg text-muted-foreground">Thank you for getting in touch. We'll get back to you as soon as possible.</p>
+                </div>
+              ) : (
               <form 
-                action={`mailto:${BUSINESS_INFO.email}`}
-                method="POST"
-                encType="text/plain"
-                className="space-y-6"
+                onSubmit={handleSubmit}
+                className="space-y-6 w-full"
               >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="name">Full Name</Label>
                     <Input id="name" name="name" placeholder="John Doe" className="bg-white" required />
+                     <ValidationError 
+                      prefix="Name" 
+                      field="name"
+                      errors={state.errors}
+                    />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="phone">Phone Number</Label>
                     <Input id="phone" name="phone" placeholder="(555) 000-0000" className="bg-white" />
+                     <ValidationError 
+                      prefix="Phone" 
+                      field="phone"
+                      errors={state.errors}
+                    />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="email">Email Address</Label>
                   <Input id="email" name="email" type="email" placeholder="john@example.com" className="bg-white" required />
+                   <ValidationError 
+                    prefix="Email" 
+                    field="email"
+                    errors={state.errors}
+                  />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="service">Requested Service</Label>
@@ -101,15 +123,26 @@ export default function Contact() {
                     <option>Power Washing</option>
                     <option>Other</option>
                   </select>
+                  <ValidationError 
+                    prefix="Service" 
+                    field="service"
+                    errors={state.errors}
+                  />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="message">Project Description</Label>
                   <Textarea id="message" name="message" placeholder="Please describe what you need help with..." className="bg-white min-h-[150px]" required />
+                  <ValidationError 
+                    prefix="Message" 
+                    field="message"
+                    errors={state.errors}
+                  />
                 </div>
-                <Button type="submit" className="w-full bg-accent hover:bg-accent/90 text-white h-14 text-lg rounded-xl">
+                <Button type="submit" disabled={state.submitting} className="w-full bg-accent hover:bg-accent/90 text-white h-14 text-lg rounded-xl">
                   Send Message
                 </Button>
               </form>
+              )}
             </div>
           </div>
         </div>
