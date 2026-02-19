@@ -27,7 +27,7 @@ export default function About() {
               />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-primary/90 p-8 text-white">
                 <p className="text-sm font-bold uppercase tracking-widest text-accent mb-1">Founder & Manager</p>
-                <h4 className="text-2xl font-bold">Nick R.</h4>
+                <h4 className="text-2xl font-bold">Nick</h4>
               </div>
             </div>
           </div>
