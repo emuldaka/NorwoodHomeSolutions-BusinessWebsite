@@ -28,6 +28,7 @@ export default function Services() {
               <Card key={service.id} className="group hover:shadow-xl transition-all duration-300 border-none bg-slate-50 overflow-hidden">
                 <div className="relative h-48 w-full overflow-hidden">
                   <Image 
+                    loading='eager'  
                     src={serviceImage?.imageUrl || "https://picsum.photos/seed/service/800/600"} 
                     alt={service.title}
                     fill

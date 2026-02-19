@@ -17,7 +17,8 @@ export default function About() {
             <div className="absolute -top-6 -left-6 w-24 h-24 bg-accent/10 rounded-full blur-2xl"></div>
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-primary/10 rounded-full blur-3xl"></div>
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
-              <Image 
+              <Image
+                loading='eager' 
                 src={ownerImage?.imageUrl || "https://picsum.photos/seed/owner/600/800"} 
                 alt="Business Owner"
                 width={600}

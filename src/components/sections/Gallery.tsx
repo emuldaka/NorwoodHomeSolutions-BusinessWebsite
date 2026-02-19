@@ -23,6 +23,7 @@ export default function Gallery() {
             return (
               <div key={item.id} className="group relative aspect-square rounded-2xl overflow-hidden shadow-lg cursor-pointer">
                 <Image 
+                  loading='eager' 
                   src={galleryImg?.imageUrl || "https://picsum.photos/seed/gallery/800/800"} 
                   alt={item.title}
                   fill

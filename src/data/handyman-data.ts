@@ -76,7 +76,7 @@ export const TESTIMONIALS = [
     id: 1,
     name: "Elis M",
     city: "Norridge",
-    quote: "I called Nick when we noticed a wasp nest in one of our trees, he showed up and took care of it the same day. He has also assited with a rat issue in my garage.",
+    quote: "I called Nick when we noticed a wasp nest in one of our trees, he showed up and took care of it the same day. He has also assisted with a rat issue in my garage.",
     rating: 5
   }
 ];
